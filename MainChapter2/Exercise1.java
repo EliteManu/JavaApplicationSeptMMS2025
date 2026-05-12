@@ -1,0 +1,10 @@
+public class Exercise1{
+	public static void main(String[] args){
+		System.out.print("2.1 Fill in the blanks: \n a) left brace ({), right brace (}) \n b) if \n c) // \n d) Spaces, tabs, newlines \n e) Keywords \n f) main \n g) print, println, printf \n");
+		System.out.print("2.2 True or False: \n a) False. Comments are ignored by the compiler and do not print text on the screen when the program executes. \n b) True. \n c) False. Java is case-sensitive, meaning number and NuMbEr are treated as entirely different variables. \n d) False. The remainder operator (%) can also be used with floating-point values in Java. \n e) False. The operators *, /, and % have a higher level of precedence than + and -. \n");
+		System.out.print("2.3 Write statements: \n a) int c, thisIsAVariable, q76354, number; \n b) System.out.print(\"Enter an integer: \"); \n c) value = input.nextInt(); \n d) System.out.println(\"This is a Java program\"); \n e) System.out.printf(\"%s%n%s%n\", \"This is a\", \"Java program\"); \n f) if (number != 7) { System.out.println(\"The variable number is not equal to 7\"); } \n");
+		System.out.print("2.4 Identify and correct errors: \n a) Error: There is a semicolon immediately following the if condition, which terminates the statement prematurely. Correction: if (c < 7) System.out.println(\"c is less than 7\"); \n b) Error: => is not a valid Java operator for \"greater than or equal to\". Correction: \"if (c >= 7) System.out.println(\"c is equal to or greater than 7\")\" ");
+		System.out.print("2.7 Fill in the blanks: \n a) Comments \n b) if statement \n c) assignment \n d) division (/), remainder (%) \n e) innermost \n f) variable ");
+		System.out.print("2.9 True or False: \n a) False. Operators are evaluated according to their precedence and associativity (which can be right-to-left for some, like assignment operators). \n b) True. \n c) False. While some are evaluated left to right, precedence rules dictate that multiplication, division, and remainder are evaluated before addition and subtraction. \n d) True. Variable names cannot begin with a digit. \n");
+	}
+}
