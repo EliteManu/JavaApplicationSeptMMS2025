@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Security info replacement</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            font-size: 15px;
+            line-height: 1.55;
+            color: #333;
+            max-width: 620px;
+            margin: 20px auto;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .email-container {
+            background: white;
+            border-radius: 12px;
+            padding: 40px 35px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+        .logo-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 6px;
+        }
+        .ms-logo {
+            width: 32px;
+            height: 32px;
+        }
+        .ms365 {
+            font-size: 24px;
+            font-weight: 600;
+            color: #444;
+        }
+        .subheader {
+            color: #555;
+            font-size: 15px;
+            margin-bottom: 24px;
+        }
+        .title {
+            font-size: 28px;
+            font-weight: 300;
+            color: #0078d4;
+            margin: 0 0 24px 0;
+        }
+        .content {
+            font-size: 15.2px;
+            line-height: 1.6;
+            color: #222;
+        }
+        .email {
+            color: #0078d4;
+        }
+        .recover-btn {
+            display: inline-block;
+            background: #0078d4;
+            color: white;
+            padding: 12px 28px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 24px 0 28px 0;
+            font-size: 15px;
+        }
+        .footer {
+            margin-top: 35px;
+            padding-top: 25px;
+            border-top: 1px solid #e5e5e5;
+            font-size: 14.5px;
+        }
+        .privacy {
+            color: #0078d4;
+            text-decoration: underline;
+        }
+        .address {
+            margin: 12px 0 20px 0;
+        }
+        .address a {
+            color: #0078d4;
+            text-decoration: underline;
+        }
+        .buttons {
+            margin-top: 15px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 8px 22px;
+            margin-right: 10px;
+            border: 1px solid #c8c8c8;
+            border-radius: 9999px;
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+        }
+        .smile {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 34px;
+            height: 34px;
+            border: 1px solid #c8c8c8;
+            border-radius: 50%;
+            font-size: 18px;
+            filter: grayscale(100%);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="email-container">
+
+        <!-- Microsoft 365 Logo -->
+        <div class="logo-row">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/512px-Microsoft_logo.svg.png" 
+                 alt="Microsoft" class="ms-logo">
+            <div class="ms365">Microsoft 365</div>
+        </div>
+
+        <div class="subheader">Microsoft account</div>
+
+        <h1 class="title">Security info replacement</h1>
+
+        <div class="content">
+            Someone started a process to replace all of the security info for your Microsoft account.<br><br>
+            
+            If this was you, you can safely ignore this email. Your security info will be replaced with 
+            <span class="email">hizeraah1@outlook.com</span>.<br><br>
+            
+            <a href="#" class="recover-btn">Recover your account</a><br><br>
+            
+            If this wasn't you, a malicious user has access to your account. Please review your recent activity and we'll help you secure your account.<br><br>
+            
+            Thanks,<br>
+            The Microsoft account team
+        </div>
+
+        <div class="footer">
+            <a href="#" class="privacy">Privacy Statement</a><br><br>
+            
+            <div class="address">
+                Microsoft Corporation, <a href="#">One Microsoft Way, Redmond,</a> <a href="#">WA 98052</a>
+            </div>
+
+            <div class="buttons">
+                <a href="#" class="btn">← Reply</a>
+                <a href="#" class="btn">→ Forward</a>
+                <span class="smile">😊</span>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
